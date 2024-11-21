@@ -1,0 +1,16 @@
+spring:
+  application:
+    openApi:
+      title: VnPay
+      description: Vnpay API
+      version: 1.0
+      license:
+        name: Apache License Version 2.0
+        url: https://www.apache.org/licenses/LICENSE-2.0
+      name: vnpay-api
+
+vnpay:
+  pay-url: https://sandbox.vnpayment.vn/paymentv2/vpcpay.html
+  return-url: http://localhost:8080/api/payment/response
+  tmn-code: TMN_CODE
+  hash-secret: SECRET_KEY
